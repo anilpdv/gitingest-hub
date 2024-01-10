@@ -1,0 +1,235 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@500;700;800;900&family=Space+Mono:ital,wght@0,400;0,700;1,400&display=swap');
+
+:root {
+  --bg: #FAFAF9;
+  --black: #121212;
+  --yellow: #FFE566;
+  --lime: #A3E635;
+  --pink: #FF7AC6;
+  --cyan: #70CFF8;
+  --purple: #C4B5FD;
+  --orange: #FB923C;
+  --card-bg: #FFFFFF;
+  --border-width: 3px;
+  --shadow-offset: 4px;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: var(--bg);
+  color: var(--black);
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  line-height: 1.5;
+  background-image: radial-gradient(#121212 1px, transparent 1px);
+  background-size: 24px 24px;
+  min-height: 100vh;
+}
+
+.mono {
+  font-family: 'Space Mono', monospace;
+}
+
+/* Neubrutalism Card */
+.nb-card {
+  background: var(--card-bg);
+  border: var(--border-width) solid var(--black);
+  box-shadow: var(--shadow-offset) var(--shadow-offset) 0px var(--black);
+  border-radius: 4px;
+  transition: all 0.15s ease-in-out;
+}
+
+.nb-card-yellow { background: var(--yellow); }
+.nb-card-lime   { background: var(--lime); }
+.nb-card-pink   { background: var(--pink); }
+.nb-card-cyan   { background: var(--cyan); }
+.nb-card-purple { background: var(--purple); }
+.nb-card-orange { background: var(--orange); }
+
+/* Neubrutalism Button */
+.nb-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Space Mono', monospace;
+  font-weight: 700;
+  font-size: 0.95rem;
+  padding: 0.65rem 1.25rem;
+  background: var(--yellow);
+  color: var(--black);
+  border: var(--border-width) solid var(--black);
+  box-shadow: var(--shadow-offset) var(--shadow-offset) 0px var(--black);
+  border-radius: 4px;
+  cursor: pointer;
+  text-decoration: none;
+  transition: transform 0.1s, box-shadow 0.1s;
+  user-select: none;
+}
+
+.nb-btn:hover {
+  transform: translate(-1px, -1px);
+  box-shadow: calc(var(--shadow-offset) + 2px) calc(var(--shadow-offset) + 2px) 0px var(--black);
+}
+
+.nb-btn:active {
+  transform: translate(2px, 2px);
+  box-shadow: 2px 2px 0px var(--black);
+}
+
+.nb-btn-pink { background: var(--pink); }
+.nb-btn-lime { background: var(--lime); }
+.nb-btn-cyan { background: var(--cyan); }
+.nb-btn-purple { background: var(--purple); }
+.nb-btn-white { background: #FFFFFF; }
+.nb-btn-black { background: var(--black); color: #FFFFFF; }
+
+/* Neubrutalism Input */
+.nb-input {
+  width: 100%;
+  font-family: 'Space Mono', monospace;
+  font-size: 1rem;
+  padding: 0.75rem 1rem;
+  border: var(--border-width) solid var(--black);
+  box-shadow: var(--shadow-offset) var(--shadow-offset) 0px var(--black);
+  border-radius: 4px;
+  outline: none;
+  background: #FFFFFF;
+}
+
+.nb-input:focus {
+  background: #FFFDF0;
+  box-shadow: calc(var(--shadow-offset) + 2px) calc(var(--shadow-offset) + 2px) 0px var(--black);
+}
+
+/* Neubrutalism Badge */
+.nb-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  font-family: 'Space Mono', monospace;
+  font-size: 0.8rem;
+  font-weight: 700;
+  padding: 0.25rem 0.6rem;
+  border: 2px solid var(--black);
+  box-shadow: 2px 2px 0px var(--black);
+  border-radius: 3px;
+  background: #FFFFFF;
+}
+
+/* Preset Chips */
+.chip {
+  cursor: pointer;
+  font-family: 'Space Mono', monospace;
+  font-size: 0.8rem;
+  font-weight: 700;
+  padding: 0.35rem 0.7rem;
+  border: 2px solid var(--black);
+  box-shadow: 2px 2px 0px var(--black);
+  border-radius: 4px;
+  background: #FFFFFF;
+  transition: all 0.1s;
+}
+
+.chip:hover {
+  background: var(--yellow);
+  transform: translate(-1px, -1px);
+  box-shadow: 3px 3px 0px var(--black);
+}
+
+/* HTMX Indicator */
+.htmx-indicator {
+  display: none;
+}
+.htmx-request .htmx-indicator {
+  display: flex !important;
+}
+.htmx-request.htmx-indicator {
+  display: flex !important;
+}
+
+/* Code area */
+.code-preview {
+  font-family: 'Space Mono', monospace;
+  font-size: 0.85rem;
+  background: #18181B;
+  color: #F4F4F5;
+  border: 2px solid var(--black);
+  border-radius: 4px;
+  padding: 1rem;
+  max-height: 320px;
+  overflow-y: auto;
+  white-space: pre-wrap;
+  word-break: break-all;
+}
+
+/* Chrome AI Box */
+.ai-summary-box {
+  background: #EFF6FF;
+  border: 2px solid var(--black);
+  box-shadow: 3px 3px 0px var(--black);
+  border-radius: 4px;
+  padding: 1rem;
+  margin-top: 1rem;
+  font-size: 0.9rem;
+}
+
+/* Neubrutalism Plus/Minus Toggle Accordion */
+details summary {
+  list-style: none;
+}
+details summary::-webkit-details-marker {
+  display: none;
+}
+
+.nb-toggle-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.25rem;
+  font-family: 'Space Mono', monospace;
+  font-weight: 900;
+  font-size: 0.75rem;
+  background: #FFFFFF;
+  color: var(--black);
+  border: 2px solid var(--black);
+  box-shadow: 2px 2px 0px var(--black);
+  border-radius: 4px;
+  padding: 0.2rem 0.5rem;
+  user-select: none;
+  transition: all 0.1s;
+}
+
+.nb-toggle-badge:hover {
+  background: var(--yellow);
+}
+
+.nb-toggle-icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 1rem;
+  height: 1rem;
+  font-size: 0.9rem;
+  font-weight: 900;
+  line-height: 1;
+}
+
+/* When details is CLOSED -> Show PLUS [+] */
+details:not([open]) .toggle-icon-minus {
+  display: none;
+}
+details:not([open]) .toggle-icon-plus {
+  display: inline;
+}
+
+/* When details is OPEN -> Show MINUS [-] */
+details[open] .toggle-icon-minus {
+  display: inline;
+}
+details[open] .toggle-icon-plus {
+  display: none;
+}
+

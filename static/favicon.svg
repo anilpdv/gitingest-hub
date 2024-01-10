@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+  <!-- Neubrutalism Hard Offset Shadow -->
+  <rect x="8" y="8" width="52" height="52" rx="10" fill="#121212" />
+  <!-- Vibrant Yellow Main Card -->
+  <rect x="4" y="4" width="52" height="52" rx="10" fill="#FFE566" stroke="#121212" stroke-width="4" />
+  <!-- High Contrast Black Bolt -->
+  <path d="M32 10 L18 34 L30 34 L26 54 L46 28 L34 28 Z" fill="#121212" stroke="#121212" stroke-width="2" stroke-linejoin="round" />
+</svg>

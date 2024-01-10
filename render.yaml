@@ -1,0 +1,12 @@
+services:
+  - type: web
+    name: gitingest-hub
+    env: go
+    plan: free
+    region: oregon
+    buildCommand: go build -o gitingest-hub main.go
+    startCommand: ./gitingest-hub --port $PORT
+    autoDeploy: false
+    envVars:
+      - key: PORT
+        value: 10000
