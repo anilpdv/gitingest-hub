@@ -9,3 +9,4 @@
 - [2024-01-28] feat(ingest): add subpath ingestion support for targeted subdirectory processing (iteration 7)
 - [2024-01-30] feat(ast): implement Go AST signature extractor with comment placeholders (iteration 8)
 - [2024-02-01] feat(ast): add multi-language signature parser for Python, TypeScript, Rust, and Swift (iteration 9)
+- [2024-02-05] feat(compress): add lossless token minifier stripping license headers (iteration 10)
