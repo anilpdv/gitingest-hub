@@ -11,3 +11,4 @@
 - [2024-02-01] feat(ast): add multi-language signature parser for Python, TypeScript, Rust, and Swift (iteration 9)
 - [2024-02-05] feat(compress): add lossless token minifier stripping license headers (iteration 10)
 - [2024-02-07] feat(ui): implement interactive file explorer with 1-click path copying (iteration 11)
+- [2024-02-10] feat(ai): integrate Chrome Built-in AI (Gemini Nano) via window.ai API (iteration 12)
