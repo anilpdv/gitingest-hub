@@ -16,3 +16,4 @@
 - [2024-02-16] refactor(ui): update active card layout with high-contrast Neubrutalism design (iteration 14)
 - [2024-02-18] feat(ui): add LocalStorage recent repositories management bar (iteration 15)
 - [2024-02-21] feat(ui): add instant re-chunking from in-memory session cache (iteration 16)
+- [2024-02-24] fix(ast): handle multiline Swift protocols and enum declarations (iteration 17)
