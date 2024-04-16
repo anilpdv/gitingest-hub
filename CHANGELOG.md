@@ -35,3 +35,4 @@
 - [2024-04-08] feat(ui): implement interactive file explorer with 1-click path copying (iteration 33)
 - [2024-04-11] feat(ai): integrate Chrome Built-in AI (Gemini Nano) via window.ai API (iteration 34)
 - [2024-04-13] feat(ai): create smart fallback semantic architecture clustering (iteration 35)
+- [2024-04-16] refactor(ui): update active card layout with high-contrast Neubrutalism design (iteration 36)
