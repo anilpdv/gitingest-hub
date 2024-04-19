@@ -36,3 +36,4 @@
 - [2024-04-11] feat(ai): integrate Chrome Built-in AI (Gemini Nano) via window.ai API (iteration 34)
 - [2024-04-13] feat(ai): create smart fallback semantic architecture clustering (iteration 35)
 - [2024-04-16] refactor(ui): update active card layout with high-contrast Neubrutalism design (iteration 36)
+- [2024-04-20] feat(ui): add LocalStorage recent repositories management bar (iteration 37)
