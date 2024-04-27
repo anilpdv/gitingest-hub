@@ -39,3 +39,4 @@
 - [2024-04-20] feat(ui): add LocalStorage recent repositories management bar (iteration 37)
 - [2024-04-22] feat(ui): add instant re-chunking from in-memory session cache (iteration 38)
 - [2024-04-25] fix(ast): handle multiline Swift protocols and enum declarations (iteration 39)
+- [2024-04-27] test(chunker): add unit test coverage for token and size limit splitters (iteration 40)
