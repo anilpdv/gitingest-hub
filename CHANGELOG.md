@@ -49,3 +49,4 @@
 - [2024-05-17] feat(chunker): balanced multi-part file partitioning strategy (iteration 47)
 - [2024-05-20] feat(model): define IngestOptions, Chunk, and File structures (iteration 48)
 - [2024-05-22] feat(ui): setup Neubrutalism visual layout with Plus Jakarta Sans & Space Mono (iteration 49)
+- [2024-05-25] feat(server): build HTTP handler for repository ingestion and dynamic chunking (iteration 50)
