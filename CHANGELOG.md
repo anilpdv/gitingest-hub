@@ -64,3 +64,4 @@
 - [2024-06-28] test(chunker): add unit test coverage for token and size limit splitters (iteration 62)
 - [2024-06-30] test(server): verify HTTP response headers and download streaming (iteration 63)
 - [2024-07-03] perf(compress): optimize regex matching for license stripping (iteration 64)
+- [2024-07-06] docs: add comprehensive README with architecture specifications (iteration 65)
