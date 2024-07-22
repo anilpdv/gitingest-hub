@@ -70,3 +70,4 @@
 - [2024-07-15] feat(engine): stream GitHub tarball directly in-memory via gzip/tar decoders (iteration 68)
 - [2024-07-16] feat(chunker): balanced multi-part file partitioning strategy (iteration 69)
 - [2024-07-19] feat(model): define IngestOptions, Chunk, and File structures (iteration 70)
+- [2024-07-22] feat(ui): setup Neubrutalism visual layout with Plus Jakarta Sans & Space Mono (iteration 71)
