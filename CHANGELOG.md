@@ -94,3 +94,4 @@
 - [2024-09-18] feat(model): define IngestOptions, Chunk, and File structures (iteration 92)
 - [2024-09-21] feat(ui): setup Neubrutalism visual layout with Plus Jakarta Sans & Space Mono (iteration 93)
 - [2024-09-24] feat(server): build HTTP handler for repository ingestion and dynamic chunking (iteration 94)
+- [2024-09-27] feat(ingest): add subpath ingestion support for targeted subdirectory processing (iteration 95)
