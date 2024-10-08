@@ -98,3 +98,4 @@
 - [2024-09-30] feat(ast): implement Go AST signature extractor with comment placeholders (iteration 96)
 - [2024-10-03] feat(ast): add multi-language signature parser for Python, TypeScript, Rust, and Swift (iteration 97)
 - [2024-10-05] feat(compress): add lossless token minifier stripping license headers (iteration 98)
+- [2024-10-09] feat(ui): implement interactive file explorer with 1-click path copying (iteration 99)
