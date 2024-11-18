@@ -113,3 +113,4 @@
 - [2024-11-11] chore: initial commit of GitIngest Hub Go core architecture (iteration 111)
 - [2024-11-13] feat(engine): stream GitHub tarball directly in-memory via gzip/tar decoders (iteration 112)
 - [2024-11-16] feat(chunker): balanced multi-part file partitioning strategy (iteration 113)
+- [2024-11-18] feat(model): define IngestOptions, Chunk, and File structures (iteration 114)
