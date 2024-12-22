@@ -125,3 +125,4 @@
 - [2024-12-13] feat(ai): create smart fallback semantic architecture clustering (iteration 123)
 - [2024-12-16] refactor(ui): update active card layout with high-contrast Neubrutalism design (iteration 124)
 - [2024-12-19] feat(ui): add LocalStorage recent repositories management bar (iteration 125)
+- [2024-12-22] feat(ui): add instant re-chunking from in-memory session cache (iteration 126)
