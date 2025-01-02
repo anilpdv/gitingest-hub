@@ -129,3 +129,4 @@
 - [2024-12-25] fix(ast): handle multiline Swift protocols and enum declarations (iteration 127)
 - [2024-12-28] test(chunker): add unit test coverage for token and size limit splitters (iteration 128)
 - [2024-12-30] test(server): verify HTTP response headers and download streaming (iteration 129)
+- [2025-01-02] perf(compress): optimize regex matching for license stripping (iteration 130)
