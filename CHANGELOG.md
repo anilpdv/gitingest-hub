@@ -131,3 +131,4 @@
 - [2024-12-30] test(server): verify HTTP response headers and download streaming (iteration 129)
 - [2025-01-02] perf(compress): optimize regex matching for license stripping (iteration 130)
 - [2025-01-05] docs: add comprehensive README with architecture specifications (iteration 131)
+- [2025-01-08] chore: add render.yaml blueprint and Heroku Procfile (iteration 132)
