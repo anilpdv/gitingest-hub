@@ -133,3 +133,4 @@
 - [2025-01-05] docs: add comprehensive README with architecture specifications (iteration 131)
 - [2025-01-08] chore: add render.yaml blueprint and Heroku Procfile (iteration 132)
 - [2025-01-10] chore: initial commit of GitIngest Hub Go core architecture (iteration 133)
+- [2025-01-13] feat(engine): stream GitHub tarball directly in-memory via gzip/tar decoders (iteration 134)
