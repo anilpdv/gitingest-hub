@@ -139,3 +139,4 @@
 - [2025-01-21] feat(ui): setup Neubrutalism visual layout with Plus Jakarta Sans & Space Mono (iteration 137)
 - [2025-01-24] feat(server): build HTTP handler for repository ingestion and dynamic chunking (iteration 138)
 - [2025-01-27] feat(ingest): add subpath ingestion support for targeted subdirectory processing (iteration 139)
+- [2025-01-29] feat(ast): implement Go AST signature extractor with comment placeholders (iteration 140)
