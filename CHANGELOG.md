@@ -140,3 +140,4 @@
 - [2025-01-24] feat(server): build HTTP handler for repository ingestion and dynamic chunking (iteration 138)
 - [2025-01-27] feat(ingest): add subpath ingestion support for targeted subdirectory processing (iteration 139)
 - [2025-01-29] feat(ast): implement Go AST signature extractor with comment placeholders (iteration 140)
+- [2025-02-01] feat(ast): add multi-language signature parser for Python, TypeScript, Rust, and Swift (iteration 141)
