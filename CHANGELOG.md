@@ -150,3 +150,4 @@
 - [2025-02-20] feat(ui): add instant re-chunking from in-memory session cache (iteration 148)
 - [2025-02-23] fix(ast): handle multiline Swift protocols and enum declarations (iteration 149)
 - [2025-02-27] test(chunker): add unit test coverage for token and size limit splitters (iteration 150)
+- [2025-03-01] test(server): verify HTTP response headers and download streaming (iteration 151)
