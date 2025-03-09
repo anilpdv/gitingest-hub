@@ -153,3 +153,4 @@
 - [2025-03-01] test(server): verify HTTP response headers and download streaming (iteration 151)
 - [2025-03-04] perf(compress): optimize regex matching for license stripping (iteration 152)
 - [2025-03-07] docs: add comprehensive README with architecture specifications (iteration 153)
+- [2025-03-09] chore: add render.yaml blueprint and Heroku Procfile (iteration 154)
