@@ -156,3 +156,4 @@
 - [2025-03-09] chore: add render.yaml blueprint and Heroku Procfile (iteration 154)
 - [2025-03-12] chore: initial commit of GitIngest Hub Go core architecture (iteration 155)
 - [2025-03-14] feat(engine): stream GitHub tarball directly in-memory via gzip/tar decoders (iteration 156)
+- [2025-03-18] feat(chunker): balanced multi-part file partitioning strategy (iteration 157)
