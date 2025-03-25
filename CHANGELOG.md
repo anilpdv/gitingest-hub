@@ -159,3 +159,4 @@
 - [2025-03-18] feat(chunker): balanced multi-part file partitioning strategy (iteration 157)
 - [2025-03-20] feat(model): define IngestOptions, Chunk, and File structures (iteration 158)
 - [2025-03-23] feat(ui): setup Neubrutalism visual layout with Plus Jakarta Sans & Space Mono (iteration 159)
+- [2025-03-26] chore: release v1.0.0 with full Chrome AI and AST token optimization
