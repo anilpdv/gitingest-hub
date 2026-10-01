@@ -172,8 +172,8 @@ func FetchRepository(opts model.IngestOptions) ([]model.IngestFile, *ParsedRepoU
 			continue
 		}
 
-		// Ignore files larger than 1MB to prevent memory explosion
-		if header.Size > 1024*1024 {
+		// Ignore individual files larger than 512KB to prevent memory and browser DOM rendering lockup
+		if header.Size > 512*1024 {
 			continue
 		}
 
