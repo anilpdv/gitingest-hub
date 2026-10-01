@@ -49,3 +49,5 @@ Visit `http://localhost:8080` in your browser.
 ## 📄 License
 
 MIT License © 2024-2025 Anil Pdv
+
+<!-- Co-authored documentation note -->
